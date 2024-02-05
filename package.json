@@ -9,7 +9,6 @@
     "build": "pnpm run prebuild && tsc",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "pack": "pnpm pack --pack-destination=./dist/",
     "prebuild": "rm -rf ./dist"
   },
   "keywords": [
@@ -19,12 +18,19 @@
     "types-utils",
     "project",
     "helpers",
-    "utilities"
+    "utilities",
+    "javascript",
+    "node"
   ],
   "engines": {
     "node": ">= 18.0.x"
   },
   "author": "Migudevelop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migudevelop/project-helpers.git"
+  },
+  "homepage": "https://github.com/migudevelop/project-helpers.git",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
