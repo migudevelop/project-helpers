@@ -49,13 +49,14 @@ console.log(isEmptyString('Programming'))
 ### Array
 
 * **isEmptyArray** - Determines whether a value is an empty string
+* **createArrayByLength** - Create an array of numbers with the given length
 
 ### Styles
 
 * **generateClassNames** - Creates a string with the values provided, it is fine to provide a conditional classes.
 
   This method eliminates undefined values, you can pass conditionals to provide a class or not, for example:
-  
+
   ```ts
   const classes = generateClassNames(
     'btn',
