@@ -1,4 +1,4 @@
-import { isString } from '@/Types'
+import { isString } from '../Types'
 
 /**
  * Determines whether a value is an empty string

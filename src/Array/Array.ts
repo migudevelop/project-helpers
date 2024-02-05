@@ -1,4 +1,4 @@
-import { isArray } from '@/Types'
+import { isArray } from '../Types'
 
 /**
  * Determines whether a value is an empty array
